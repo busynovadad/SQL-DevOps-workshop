@@ -17,7 +17,7 @@ CREATE PROCEDURE [dbo].[NewVenue]
           RETURN 1
       END
   
-  
+  --BKM Comment to force a change
       -- Insert Venue
       INSERT INTO [dbo].Venues
           ([VenueId],[VenueName],[VenueType],[AdminEmail],[CountryCode], [PostalCode])         
