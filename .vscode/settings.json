@@ -1,6 +1,5 @@
 {
     "dataworkspace.excludedProjects": [
-        "Wingtips/Wingtips/Wingtips.sqlproj",
         "LAB1/Results/Wingtips/Wingtips.sqlproj"
     ]
 }
