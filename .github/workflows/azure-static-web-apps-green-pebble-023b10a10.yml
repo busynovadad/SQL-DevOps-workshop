@@ -59,3 +59,5 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GREEN_PEBBLE_023B10A10 }}
           action: "close"
+env:
+  SKIP_DEPLOY_ON_MISSING_SECRETS: true
