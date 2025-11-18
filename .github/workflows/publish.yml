@@ -24,3 +24,9 @@ jobs:
     - name: Publish SQL project
       run: |
         sqlpackage /Action:Publish /SourceFile:Wingtips/Wingtips/bin/Debug/Wingtips.dacpac /TargetConnectionString:${{ secrets.SQL_CONNECTION_STRING }}
+env:
+  SKIP_DEPLOY_ON_MISSING_SECRETS: true
+
+
+
+  
